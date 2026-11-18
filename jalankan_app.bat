@@ -28,7 +28,7 @@ echo Aplikasi akan terbuka otomatis di browser.
 echo Tutup jendela ini kalau mau mematikan aplikasinya.
 echo.
 
-"%PY%" -m streamlit run "app\streamlit_app.py" %*
+"%PY%" -m streamlit run "app\streamlit_app.py" --server.headless=false %*
 
 echo.
 echo Aplikasi berhenti.
