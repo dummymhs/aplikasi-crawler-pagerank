@@ -112,6 +112,8 @@ manual pakai `--abaikan-navigasi`.
 
 ## Deployment
 
-Unggah folder ini ke GitHub, lalu di Streamlit Community Cloud pilih
-`app/streamlit_app.py` sebagai entrypoint. Semua dependency sudah ada di
-`requirements.txt`.
+Aplikasinya punya repo sendiri di
+`https://github.com/dummymhs/aplikasi-crawler-pagerank`. Di Streamlit Community
+Cloud tinggal pilih repo itu, branch `main`, dan `app/streamlit_app.py` sebagai
+entrypoint. Semua dependency sudah ada di `requirements.txt` yang letaknya di
+root repo, jadi gak perlu setting tambahan.
